@@ -1,12 +1,20 @@
 package br.com.pizza.model;
 
+import com.fasterxml.jackson.annotation.JsonAlias;
+
 public class Pizza {
 	
+	@JsonAlias("Crust")
 	private String crust;
+	@JsonAlias("Flavor")
 	private String flavor;
+	@JsonAlias("Order_ID")
 	private int order_id;
+	@JsonAlias("Size")
 	private String size;
+	@JsonAlias("Table_No")
 	private int table_no;
+	@JsonAlias("Timestamp")
 	private String timestamp;
 	
 	public Pizza() {
