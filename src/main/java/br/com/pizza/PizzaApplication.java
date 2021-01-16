@@ -1,13 +1,13 @@
-package br.com.pizza.pizzaresttemplate;
+package br.com.pizza;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PizzaResttemplateApplication {
+public class PizzaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PizzaResttemplateApplication.class, args);
+		SpringApplication.run(PizzaApplication.class, args);
 	}
 
 }
